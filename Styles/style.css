@@ -82,7 +82,7 @@ body {
     margin-top: 0.2rem;
 }
 
-@media (max-width: 24em) {
+@media (max-width: 26em) {
     html {
         font-size: 50%;
     }
