@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: 0;
+    text-decoration: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #0A0C1C;
+}
+
+.info {
+    max-width: 111rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 12rem auto;
+    align-items: center;
+    background-color: #1B1937;
+    border-radius: 0.8rem;
+}
+
+.stats {
+    padding: 7rem;
+}
+
+.heading {
+    font-family: "Inter";
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.heading span {
+    color: #AB5CDB;
+}
+
+.description {
+    font-family: "Inter";
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 0.75;
+    margin-top: 2.4rem;
+}
+
+.pic {
+    height: 100%;
+}
+
+.info-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0.8rem 0.8rem 0;
+}
+
+.statistics {
+    display: flex;
+    margin-top: 7.2rem;
+    gap: 6.4rem;
+}
+
+.numbers span {
+    font-family: "Inter";
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.numbers p {
+    font-family: "Lexend Deca";
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 0.6;
+    margin-top: 0.2rem;
+}
+
+@media (max-width: 24em) {
+    html {
+        font-size: 50%;
+    }
+
+    .info {
+        max-width: 34rem;
+        grid-template-columns: 1fr;
+        margin-top: 8.8rem;
+    }
+
+    .heading {
+        font-size: 2.8rem;
+    }
+
+    .stats {
+        text-align: center;
+        padding: 3.2rem;
+        order: 1;
+    }
+
+    .statistics {
+        flex-direction: column;
+        margin-top: 4rem;
+        gap: 2.4rem;
+    }
+
+    .info-img {
+        border-radius: 0.8rem 0.8rem 0 0;
+    }
+}
